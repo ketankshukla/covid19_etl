@@ -1,0 +1,62 @@
+[
+    {
+      "date": "2023-01-15",
+      "hospital_name": "General Hospital",
+      "hospital_location": "California",
+      "total_beds": 500,
+      "occupied_beds": 350,
+      "available_beds": 150,
+      "icu_beds": 50,
+      "ventilators": 30
+    },
+    {
+      "date": "2023-01-15",
+      "hospital_name": "Memorial Hospital",
+      "hospital_location": "New York",
+      "total_beds": 800,
+      "occupied_beds": 600,
+      "available_beds": 200,
+      "icu_beds": 80,
+      "ventilators": 60
+    },
+    {
+      "date": "2023-01-15",
+      "hospital_name": "County Medical Center",
+      "hospital_location": "Texas",
+      "total_beds": 600,
+      "occupied_beds": 450,
+      "available_beds": 150,
+      "icu_beds": 60,
+      "ventilators": 40
+    },
+    {
+      "date": "2023-01-16",
+      "hospital_name": "General Hospital",
+      "hospital_location": "California",
+      "total_beds": 500,
+      "occupied_beds": 360,
+      "available_beds": 140,
+      "icu_beds": 50,
+      "ventilators": 30
+    },
+    {
+      "date": "2023-01-16",
+      "hospital_name": "Memorial Hospital",
+      "hospital_location": "New York",
+      "total_beds": 800,
+      "occupied_beds": 620,
+      "available_beds": 180,
+      "icu_beds": 80,
+      "ventilators": 60
+    },
+    {
+      "date": "2023-01-16",
+      "hospital_name": "County Medical Center",
+      "hospital_location": "Texas",
+      "total_beds": 600,
+      "occupied_beds": 460,
+      "available_beds": 140,
+      "icu_beds": 60,
+      "ventilators": 40
+    }
+  ]
