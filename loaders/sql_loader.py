@@ -46,7 +46,9 @@ def load_to_sqlite(df, table_name, db_uri, if_exists='replace', index=False):
         
         # Verify the data was loaded by counting rows
         with engine.connect() as connection:
-            result = connection.execute(f"SELECT COUNT(*) FROM {table_name}")
+            # SQLAlchemy 2.0 requires using text() for raw SQL
+            from sqlalchemy import text
+            result = connection.execute(text(f"SELECT COUNT(*) FROM {table_name}"))
             row_count = result.scalar()
         
         logger.info(f"Successfully loaded {row_count} rows to table '{table_name}'")

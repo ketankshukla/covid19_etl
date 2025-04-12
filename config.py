@@ -16,8 +16,9 @@ os.makedirs(DEFAULT_OUTPUT_DIR, exist_ok=True)
 # Default file paths
 DEFAULT_CSV_PATH = os.path.join(DEFAULT_DATA_DIR, "cases.csv")
 DEFAULT_JSON_PATH = os.path.join(DEFAULT_DATA_DIR, "hospitals.json")
-DEFAULT_API_URL = "https://api.example.com/covid/vaccinations"
-DEFAULT_HTML_URL = "https://example.com/covid/stats"
+# Real CDC COVID-19 data sources
+DEFAULT_API_URL = "https://data.cdc.gov/resource/vbim-akqf.json"  # COVID-19 Case Surveillance Public Use Data
+DEFAULT_HTML_URL = "https://covid.cdc.gov/covid-data-tracker/#datatracker-home"
 
 # Database settings
 DB_PATH = os.path.join(DEFAULT_OUTPUT_DIR, "covid19.db")
